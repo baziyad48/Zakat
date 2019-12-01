@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zakat Yang Harus Dibayar:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp. -"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btn_penghasilan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung Zakat Penghasilan"/>
+
+    <Button
+        android:id="@+id/btn_maal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung Zakat Maal"/>
+
+    <Button
+        android:id="@+id/btn_fitrah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung Zakat Fitrah"/>
+
+</LinearLayout>
